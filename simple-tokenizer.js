@@ -21,6 +21,7 @@ var simpleTokenizer = {
         }
         timex = now.getFullYear() + month + day + hour + now.getMinutes();
         console.log(timex);
+        //todo: enable sha1 hashing and building hash return 
         return hash;  
     }
 }
